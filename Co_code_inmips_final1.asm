@@ -7,6 +7,8 @@ main:
 	la $a0 ,myarray
 	addi $a1,$s0,5
 	jal Insertion_sort
+	#jal binarySearch
+	#jal  quick
 	addi $a0,$v0,0
 	li $v0,1
 	syscall
